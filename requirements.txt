@@ -1,0 +1,25 @@
+# Core Discord library with voice support
+discord.py>=2.7.1
+
+# Voice dependencies (required for discord.py voice)
+PyNaCl>=1.5.0
+davey>=0.2.0
+
+# HTTP client for API calls
+httpx>=0.28.1
+
+# Environment variable management
+python-dotenv>=1.0.1
+
+# YouTube downloader (audio extraction)
+yt-dlp>=2026.10.26
+
+# PyAV - pure Python FFmpeg bindings (no system ffmpeg needed)
+av>=19.0.2
+
+# Type hints backport
+typing-extensions>=4.16.0
+
+# MongoDB driver for context/memory persistence
+pymongo>=4.8.0
+motor>=3.7.0
